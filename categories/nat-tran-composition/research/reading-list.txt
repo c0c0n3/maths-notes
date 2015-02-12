@@ -1,0 +1,16 @@
+things to explore:
+==================
+* Wikipedia: http://en.wikipedia.org/wiki/Higher_category_theory
+* nLab: http://ncatlab.org/nlab/show/higher+category+theory
+    and  http://ncatlab.org/nlab/show/algebraic+definition+of+higher+categories
+* Lenster's lecture on higher cats---challenge of finding simple foundation
+
+Also explore double cats:
+=========================
+* http://ncatlab.org/nlab/show/double+category
+* Double Categories and Pseudo Algebras: http://www-personal.umd.umich.edu/~tmfiore/1/fiorefolding.pdf
+* https://golem.ph.utexas.edu/category/2008/05/double_categories_warm_and_cud.html
+
+and also
+========
+* N-tuple cats: http://www.mat.uc.pt/~ct2011/talks/Majard.pdf
