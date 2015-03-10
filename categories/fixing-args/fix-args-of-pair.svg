@@ -29,8 +29,8 @@
      inkscape:showpageshadow="false"
      borderlayer="true"
      id="namedview9289"
-     inkscape:cx="303.02903"
-     inkscape:cy="340.0175"
+     inkscape:cx="268.02903"
+     inkscape:cy="302.99171"
      inkscape:window-width="1920"
      inkscape:window-height="1020"
      inkscape:window-x="1912"
@@ -1458,7 +1458,7 @@
          sodipodi:role="line">for any generic element f:</tspan></text>
     <path
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 505,160 0,549"
+       d="m 505,160 0,449"
        id="path11592"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -1471,7 +1471,8 @@
        y="103" />
     <a
        xlink:href="fix-1st-arg-of-pair.relation-to-exp.svg"
-       id="a8820">
+       id="a8820"
+       transform="translate(0,40)">
       <path
          style="opacity:1;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#bdcdd4;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter9166)"
          d="m 143,665 1,36 113,0 0,15 56.5,-36.5 -60.08189,-32.76009 0,17.26009 z"
@@ -1483,17 +1484,18 @@
     <text
        sodipodi:linespacing="125%"
        id="text8802"
-       y="691"
+       y="731"
        x="29"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Chalkboard;-inkscape-font-specification:Chalkboard;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;opacity:1;fill:#999999;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="691"
+         y="731"
          x="29"
          sodipodi:role="line"
          id="tspan8810">relation to exponential transpose</tspan></text>
     <a
        xlink:href="fix-2nd-arg-of-pair.relation-to-exp.svg"
-       id="a8823">
+       id="a8823"
+       transform="translate(0,40)">
       <path
          transform="matrix(0.31573805,0,0,0.31573805,744.93279,472.86558)"
          sodipodi:nodetypes="cccccccc"
@@ -1506,16 +1508,17 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Chalkboard;-inkscape-font-specification:Chalkboard;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;opacity:1;fill:#999999;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        x="555"
-       y="691"
+       y="731"
        id="text8816"
        sodipodi:linespacing="125%"><tspan
          id="tspan8818"
          sodipodi:role="line"
          x="555"
-         y="691">relation to exponential transpose</tspan></text>
+         y="731">relation to exponential transpose</tspan></text>
     <a
        xlink:href="fix-1st-arg-of-pair.relation-to-exp.svg"
-       id="a8766">
+       id="a8766"
+       transform="translate(0,40)">
       <path
          transform="matrix(0.31573805,0,0,0.31573805,218.93279,472.86558)"
          sodipodi:nodetypes="cccccccc"
@@ -1524,5 +1527,45 @@
          d="m 143,665 1,36 113,0 0,15 56.5,-36.5 -60.08189,-32.76009 0,17.26009 z"
          style="opacity:1;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#bdcdd4;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter9166)" />
     </a>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Chalkboard;-inkscape-font-specification:Chalkboard;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;opacity:1;fill:#999999;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="433"
+       y="631"
+       id="text8769"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan8771"
+         sodipodi:role="line"
+         x="433"
+         y="631">Note: can define one</tspan><tspan
+         sodipodi:role="line"
+         x="433"
+         y="649.75"
+         id="tspan8773">in terms of the other</tspan></text>
+    <rect
+       y="609"
+       x="422"
+       height="56"
+       width="171"
+       id="rect8775"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <a
+       xlink:href="fix-args-of-pair.swap.svg"
+       id="a8777"
+       transform="translate(293,-24)">
+      <path
+         style="opacity:1;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#bdcdd4;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter9166)"
+         d="m 143,665 1,36 113,0 0,15 56.5,-36.5 -60.08189,-32.76009 0,17.26009 z"
+         id="path8779"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccc"
+         transform="matrix(0.31573805,0,0,0.31573805,218.93279,472.86558)" />
+    </a>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path8781"
+       d="m 505,666 0,71"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
 </svg>
