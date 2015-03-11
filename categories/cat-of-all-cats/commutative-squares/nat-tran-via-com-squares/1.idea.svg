@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024px"
+   height="768px"
+   viewBox="0 0 1024 768"
+   id="SVGRoot"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="1.idea.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#3c4747"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="590.43286"
+     inkscape:cy="436.50108"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1020"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false"
+     inkscape:snap-global="false"
+     showguides="false"
+     borderlayer="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid13174"
+       color="#b5357b"
+       opacity="0.1254902"
+       empcolor="#5d6e79"
+       empopacity="0.25098039"
+       enabled="true"
+       empspacing="15" />
+  </sodipodi:namedview>
+  <defs
+     id="defs8685" />
+  <metadata
+     id="metadata8688">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Bg fill"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#3c4747;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect10272"
+       width="1076"
+       height="806"
+       x="-28"
+       y="-17" />
+  </g>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="g21882"
+       transform="translate(4,5)">
+      <rect
+         style="opacity:0.2;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.73578942;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect21880"
+         width="81.384979"
+         height="47.39418"
+         x="9.8678894"
+         y="8.8678589" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text21876"
+         y="40"
+         x="23"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:'Sansita One';-inkscape-font-specification:'Sansita One';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;opacity:1;fill:#ff9900;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
+         xml:space="preserve"><tspan
+           y="40"
+           x="23"
+           id="tspan21878"
+           sodipodi:role="line">Idea</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Sansita One';-inkscape-font-specification:'Sansita One';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;opacity:1;fill:#bdcdd4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="115"
+       y="46"
+       id="text21887"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan21889"
+         x="115"
+         y="46">natural transformation as commutative squares</tspan></text>
+  </g>
+</svg>
