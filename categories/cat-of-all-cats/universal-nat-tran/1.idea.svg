@@ -15,7 +15,7 @@
    viewBox="0 0 1024 768"
    id="SVGRoot"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.91+devel+osxmenu r12897"
    sodipodi:docname="1.idea.svg">
   <sodipodi:namedview
      id="base"
@@ -25,16 +25,16 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="718.12903"
-     inkscape:cy="379.73481"
+     inkscape:cx="599.48049"
+     inkscape:cy="387.30196"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1020"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1440"
+     inkscape:window-height="851"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
      inkscape:showpageshadow="false"
      inkscape:snap-global="false"
      showguides="false"
@@ -1616,7 +1616,9 @@
          sodipodi:role="line"
          x="178.42154"
          y="135.53729"
-         id="tspan9348">can accomplish this in two steps as shown below...</tspan></text>
+         id="tspan9348">can accomplish this in <tspan
+   style="fill:#bdcdd4"
+   id="tspan9230">two steps</tspan> as shown below...</tspan></text>
     <g
        id="g8920"
        transform="translate(770,-494)">
