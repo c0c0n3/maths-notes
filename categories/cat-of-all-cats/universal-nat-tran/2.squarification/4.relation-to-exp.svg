@@ -24,9 +24,9 @@
      borderopacity="1"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="587.02903"
-     inkscape:cy="348.48711"
+     inkscape:zoom="0.5"
+     inkscape:cx="1059.9834"
+     inkscape:cy="356.98711"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -201,18 +201,18 @@
          sodipodi:role="line"
          id="tspan21889"
          x="197"
-         y="46">universal natural transformation as category of commutative squares</tspan></text>
+         y="46">universal natural transformation as category of commutative sqaures</tspan></text>
     <a
        xlink:href="../../commutative-squares/two-nat-trans-of-com-sq.1.svg"
-       id="a9265"
-       transform="translate(849,222)">
+       transform="translate(849,222)"
+       id="a9265">
       <g
          id="g9267" />
     </a>
     <a
-       xlink:href="4.relation-to-exp.svg"
-       transform="translate(653,-76)"
-       id="a9304">
+       xlink:href="2.univ-nat-tran-defined.svg"
+       id="a9304"
+       transform="translate(653,-76)">
       <g
          id="g9299">
         <path
@@ -1385,30 +1385,26 @@
          x="281"
          y="260.75"
          id="tspan9532">in product category</tspan></text>
-    <a
-       xlink:href="3.as-cat-of-com-squares.1.svg"
-       id="a10642">
-      <g
-         id="g9561">
-        <path
-           style="opacity:0.2;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#19aeff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 344.86914,421.00426 0.14645,16.63887 53.33945,0 0,6.39957 13.65241,-14.50569 -11.94586,-14.07905 -0.42663,5.97293 z"
-           id="path9548"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cccccccc" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Chalkboard;-inkscape-font-specification:Chalkboard;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;opacity:1;fill:#19aeff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           x="351.74661"
+    <g
+       id="g9561">
+      <path
+         sodipodi:nodetypes="cccccccc"
+         inkscape:connector-curvature="0"
+         id="path9548"
+         d="m 344.86914,421.00426 0.14645,16.63887 53.33945,0 0,6.39957 13.65241,-14.50569 -11.94586,-14.07905 -0.42663,5.97293 z"
+         style="opacity:0.2;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#19aeff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text9550"
+         y="433.43402"
+         x="351.74661"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Chalkboard;-inkscape-font-specification:Chalkboard;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;opacity:1;fill:#19aeff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         xml:space="preserve"><tspan
            y="433.43402"
-           id="text9550"
-           sodipodi:linespacing="125%"><tspan
-             id="tspan9552"
-             sodipodi:role="line"
-             x="351.74661"
-             y="433.43402">details</tspan></text>
-      </g>
-    </a>
+           x="351.74661"
+           sodipodi:role="line"
+           id="tspan9552">details</tspan></text>
+    </g>
     <text
        sodipodi:linespacing="125%"
        id="text9570"
