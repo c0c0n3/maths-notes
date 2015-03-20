@@ -25,8 +25,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="587.02903"
-     inkscape:cy="348.48711"
+     inkscape:cx="569.52903"
+     inkscape:cy="339.98711"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -204,15 +204,15 @@
          y="46">universal natural transformation as category of commutative squares</tspan></text>
     <a
        xlink:href="../../commutative-squares/two-nat-trans-of-com-sq.1.svg"
-       id="a9265"
-       transform="translate(849,222)">
+       transform="translate(849,222)"
+       id="a9265">
       <g
          id="g9267" />
     </a>
     <a
        xlink:href="4.relation-to-exp.svg"
-       transform="translate(653,-76)"
-       id="a9304">
+       id="a9304"
+       transform="translate(653,-76)">
       <g
          id="g9299">
         <path
@@ -258,7 +258,7 @@
    style="font-size:17.5px;fill:none;stroke:#999999"
    id="tspan8976">2</tspan>x<tspan
    style="font-size:17.5px;fill:none;stroke:#999999"
-   id="tspan8972">B</tspan> loooks like</tspan></text>
+   id="tspan8972">B</tspan> looks like</tspan></text>
     <g
        transform="matrix(0.59083305,0,0,0.59083305,227.4268,-267.53779)"
        id="g8858">
