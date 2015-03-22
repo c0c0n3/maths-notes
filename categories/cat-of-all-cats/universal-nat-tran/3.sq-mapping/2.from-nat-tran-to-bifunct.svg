@@ -15,7 +15,7 @@
    viewBox="0 0 1024 768"
    id="SVGRoot"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.91+devel+osxmenu r12897"
    sodipodi:docname="2.from-nat-tran-to-bifunct.svg">
   <sodipodi:namedview
      id="base"
@@ -25,16 +25,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="457.94839"
-     inkscape:cy="359.83057"
+     inkscape:cx="587.1593"
+     inkscape:cy="380.69804"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1020"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1440"
+     inkscape:window-height="851"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
      inkscape:showpageshadow="false"
      inkscape:snap-global="false"
      showguides="true"
@@ -52,6 +52,10 @@
   </sodipodi:namedview>
   <defs
      id="defs8685">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect15408"
+       is_visible="true" />
     <symbol
        id="zero">
       <path
@@ -267,15 +271,15 @@
          y="46">from natural transformation to bifunctor</tspan></text>
     <a
        xlink:href="../../commutative-squares/two-nat-trans-of-com-sq.1.svg"
-       transform="translate(849,222)"
-       id="a9265">
+       id="a9265"
+       transform="translate(849,222)">
       <g
          id="g9267" />
     </a>
     <a
        xlink:href="2.from-nat-tran-to-bifunct.1.svg"
-       id="a9304"
-       transform="translate(672,-95)">
+       transform="translate(672,-95)"
+       id="a9304">
       <g
          id="g9299">
         <path
@@ -1549,14 +1553,9 @@
          id="use10535" />
     </g>
     <path
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 670,608 133,0 0,-182"
-       id="path11139"
-       inkscape:connector-curvature="0" />
-    <path
        style="opacity:1;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path11141"
-       d="m 792.96651,430.22964 c 1.69314,-0.45963 3.50994,-0.90786 5.02014,-1.84543 0.31869,-0.19785 1.14854,-0.95844 0.89534,-0.68168 -0.62858,0.68705 -1.35251,1.28037 -2.02876,1.92055 1.46146,-1.45829 2.03772,-3.31229 2.35304,-5.29443 0.46819,-2.50467 0.8508,-2.8044 3.98073,-4.31033 0.15782,-0.0759 0.93244,1.05783 0.95047,1.08247 1.09525,1.69069 2.24864,3.30939 3.60211,4.80289 1.28046,1.49012 2.87302,2.36633 4.55544,3.28208 0.22109,0.17395 0.44217,0.34791 0.66326,0.52186 0,0 -2.75664,2.89845 -2.75664,2.89845 l 0,0 c -0.18828,-0.14379 -0.37656,-0.28757 -0.56484,-0.43135 -1.77394,-0.93949 -3.39344,-1.95074 -4.75302,-3.47025 -1.37698,-1.51633 -2.56482,-3.1481 -3.66876,-4.87252 -1.14697,-1.68694 -0.93899,-0.15722 2.00872,-3.33362 0.0685,-0.0738 -0.1952,0.0836 -0.25177,0.16687 -0.22227,0.32729 -0.37967,1.07986 -0.46594,1.40257 -0.24869,2.07516 -0.69419,4.09836 -2.09209,5.73286 -1.15937,1.13218 -2.27138,2.31497 -3.47811,3.39653 -1.62834,1.45945 -4.22205,1.76524 -6.22769,2.33396 0,0 2.25837,-3.30148 2.25837,-3.30148 z"
+       d="m 792.96651,432.22964 c 1.69314,-0.45963 3.50994,-0.90786 5.02014,-1.84543 0.31869,-0.19785 1.14854,-0.95844 0.89534,-0.68168 -0.62858,0.68705 -1.35251,1.28037 -2.02876,1.92055 1.46146,-1.45829 2.03772,-3.31229 2.35304,-5.29443 0.46819,-2.50467 0.8508,-2.8044 3.98073,-4.31033 0.15782,-0.0759 0.93244,1.05783 0.95047,1.08247 1.09525,1.69069 2.24864,3.30939 3.60211,4.80289 1.28046,1.49012 2.87302,2.36633 4.55544,3.28208 0.22109,0.17395 0.44217,0.34791 0.66326,0.52186 0,0 -2.75664,2.89845 -2.75664,2.89845 l 0,0 c -0.18828,-0.14379 -0.37656,-0.28757 -0.56484,-0.43135 -1.77394,-0.93949 -3.39344,-1.95074 -4.75302,-3.47025 -1.37698,-1.51633 -2.56482,-3.1481 -3.66876,-4.87252 -1.14697,-1.68694 -0.93899,-0.15722 2.00872,-3.33362 0.0685,-0.0738 -0.1952,0.0836 -0.25177,0.16687 -0.22227,0.32729 -0.37967,1.07986 -0.46594,1.40257 -0.24869,2.07516 -0.69419,4.09836 -2.09209,5.73286 -1.15937,1.13218 -2.27138,2.31497 -3.47811,3.39653 -1.62834,1.45945 -4.22205,1.76524 -6.22769,2.33396 0,0 2.25837,-3.30148 2.25837,-3.30148 z"
        inkscape:connector-curvature="0" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#b88100;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1663,7 +1662,7 @@
          y="134.92487"
          x="28.963074"
          sodipodi:role="line"
-         id="tspan10209">via the universal nat tran?</tspan></text>
+         id="tspan10209">through the universal nat tran?</tspan></text>
     <use
        style="fill:#009100"
        transform="matrix(0.3856181,0,0,0.3856181,129.50665,19.10733)"
@@ -1708,7 +1707,7 @@
          x="509.96307"
          y="142.17487">given</tspan></text>
     <g
-       transform="translate(390,204)"
+       transform="translate(410,204)"
        id="g10366">
       <ellipse
          style="opacity:1;fill:none;fill-opacity:1;stroke:#ff9900;stroke-width:1.24300003;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1729,7 +1728,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="matrix(0.84840508,0,0,0.84840508,461.02997,247.76494)"
+       transform="matrix(0.84840508,0,0,0.84840508,481.02997,247.76494)"
        style="fill:#999999"
        id="g10374">
       <path
@@ -1750,11 +1749,11 @@
        y="0"
        width="100%"
        height="100%"
-       transform="matrix(0.42791579,0,0,0.42791579,643.9537,375.53228)"
+       transform="matrix(0.42791579,0,0,0.42791579,663.9537,375.53228)"
        style="fill:#cccccc" />
     <path
        inkscape:connector-curvature="0"
-       d="m 878.1621,532.94022 c 1.8952,-1.51934 4.1386,-2.67218 6.4322,-3.77857 0,0 6.5341,-0.26348 6.5341,-0.26348 l 0,0 c -2.3317,1.01102 -4.6082,2.07208 -6.4935,3.56749 0,0 -6.4728,0.47456 -6.4728,0.47456 z"
+       d="m 898.1621,532.94022 c 1.8952,-1.51934 4.1386,-2.67218 6.4322,-3.77857 0,0 6.5341,-0.26348 6.5341,-0.26348 l 0,0 c -2.3317,1.01102 -4.6082,2.07208 -6.4935,3.56749 0,0 -6.4728,0.47456 -6.4728,0.47456 z"
        id="path10382"
        style="opacity:1;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <g
@@ -1907,14 +1906,22 @@
          sodipodi:role="line"
          x="608.96307"
          y="91.174873"
-         id="tspan10467">indeed it seems all we need to do is match the</tspan><tspan
+         id="tspan10467">indeed it seems all we need to do is <tspan
+   style="fill:#bdcdd4"
+   id="tspan20783">match</tspan></tspan><tspan
          sodipodi:role="line"
          x="608.96307"
          y="113.04987"
-         id="tspan10479">colors! i.e. take g in <tspan
-   style="stroke:#999999;fill:none"
+         id="tspan10479"><tspan
+   style="fill:#009100"
+   id="tspan20785">co</tspan><tspan
+   style="fill:#19aeff"
+   id="tspan20787">lo</tspan><tspan
+   style="fill:#b88100"
+   id="tspan20789">rs</tspan>! i.e. take g in <tspan
+   style="fill:none;stroke:#999999"
    id="tspan11147">B</tspan> to <tspan
-   style="stroke:#999999;fill:none"
+   style="fill:none;stroke:#999999"
    id="tspan11151">2</tspan>xg then define:  </tspan></text>
     <g
        id="g11102"
@@ -2174,5 +2181,15 @@
          transform="matrix(0.28879096,0,0,0.28879096,-105.60458,505.31856)"
          style="fill:#cccccc" />
     </g>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 802,427 0,72.5"
+       id="path15449"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 802.5,545.5 0,64 -132,0"
+       id="path15451"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
