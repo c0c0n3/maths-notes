@@ -1,7 +1,7 @@
 Inkscape Set Up
 ===============
 
-Files in this directory are used to configure Inkscape for drawing math notes. 
+Files in this directory are used to configure Inkscape for drawing maths notes. 
 
 
 doc-templates
@@ -30,18 +30,23 @@ the template to use for new docs, e.g.
 
 palettes
 --------
-color palettes, should go into (not verified):
+Colour palettes, should go into:
 
   * ~/Library/Application\ Support/org.inkscape.Inkscape/inkscape/palettes/
 
-Saving here Echo Icon Theme palette which ships with 0.91 so that it can be restored 
-if the next version doesn't have it.  Currently using this palette for all diagrams,
-either black or white background.
- 
+Here are the palettes I've used overtime for all diagrams having either dark or white
+background.
+
+  * echo-palette.gpl: Echo Icon Theme palette which ships with Inkscape 0.91.
+  * solarized+echo.gpl: joined Echo Icon Theme with Solarized palette; so I stopped
+    using Echo and used this instead for some time.
+  * pastel.gpl: Pastel colours palette; the one I'm using at the moment in place of
+    the two above. See comments in palette file for more info about the colours.
+
 
 preferences
 -----------
-preference files to specify tools props. 
+Preference files to specify tools props. 
 
   * blackboard.preferences.xml: set up to go with Blackboard documents.
   * white-bg.preferences.xml: set up to go with white background docs.
@@ -50,8 +55,29 @@ to install one preference set, override:
 
   * ~/Library/Application\ Support/org.inkscape.Inkscape/inkscape/preferences.xml
 
+(Make a backup first!)
+Note that this is convenient but it may stop working with future Inkscape versions.
+Also, there seems to be quite a bit of junk in those files.
+So it's probably safe to specify the following settings through the preferences
+dialog (colours from Pastel palette):
+
+  * calligraphy. draw something; select it; set stroke=none, fill=Grey 3 (white bg)
+    or Grey 2 (blackboard bg); take calligraphy tool style from selection.
+  * preset calligraphy: my-pen. draw something; add new calligraphy preset called
+    "my-pen" with: width=4, angle=45, fixation=80, mass=2, all other params=0.
+  * preset calligraphy: my-pen. draw something; add new calligraphy preset called
+    "my-calligraphy" with: width=10, thinning="20", angle=30, fixation=100, mass=2,
+     all other params=0.
+  * rectangle tool. draw rectangle; select it; set fill=none, stroke=Grey 2; take
+    rectangle tool style from selection. 
+  * font. enter some text; select it; set size=22, fill=Grey chateau; take font
+    style from selection.
+
+Note: font families I've used so far in diagrams: Chalkboard, Architects Daughter,
+Sansita One.
+
 
 symbols
 -------
-symbols libraries.
+Symbol libraries.
 
