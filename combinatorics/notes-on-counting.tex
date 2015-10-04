@@ -1,0 +1,178 @@
+\documentclass{amsart}
+
+% Separate paragraphs.
+\setlength{\parskip}{\bigskipamount}
+
+% Include AMS math functionality.
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+
+% Use hollow squares for list items.
+\usepackage{latexsym}
+\makeatletter
+\AtBeginDocument{
+  \def\labelitemi{\(\Box\)}
+}
+
+% Diagrams.
+\usepackage[all]{xy}
+
+% Enable links in PDF output, making them black and w/ no frame around -- also sections 
+% will be displayed in bookmarks pane.
+\usepackage[colorlinks,linkcolor=black,citecolor=black]{hyperref}
+
+% Comments -- e.g. \comments{blah, blah}.  Useful for multiline comments as avoids 
+% one to write % at the beginning of each line.
+\newcommand{\comments}[1]{}
+
+
+
+\begin{document}
+
+\title[]{Notes on Counting}
+\date{September, 2008}
+\author[]{Andrea Falconi}
+\keywords{Enumerative combinatorics}
+
+\maketitle
+
+\begin{abstract}
+These notes show how to enumerate functions on finite sets and how to relate this
+to enumerative combinatorics.
+\end{abstract}
+
+
+
+
+\section*{Functions on Finite Sets}
+We begin by asking how many ways can can select $r$ elements from a set of $n$ elements,
+taking into account the order in which the elements are selected.  That is, we want to know
+how many \emph{permutations with repetition} there are.  This is obviously the same as asking
+how many sequences of length $r$ are possible from a set of $n$ elements or, equivalently,
+what is the cardinality of $Y^{X} = \{f:X \rightarrow Y\}$, when $|X|=r$ and $|Y|=n \ge 1$.
+
+If $X = \emptyset$ ($r = 0$), there is only one possible function $\emptyset \rightarrow Y$;
+hence $|Y^{X}| = 1$.
+
+If $X = \{1,\ldots,r,r+1\}$, we notice that, said $Z=\{1,\ldots,r\}$, we can extend every 
+$f:Z \rightarrow Y$ into a function $g:X \rightarrow Y$ by letting
+\begin{flalign*}
+g(x) = \begin{cases}
+    f(x) \quad & x \in Z\\
+    k    \quad & x = r+1
+  \end{cases}
+\end{flalign*}
+
+\noindent where $k$ is one of the $n$ elements of $Y$.  Viceversa, every $g: X \rightarrow Y$
+is trivially obtained this way.  Since we've got $n$ possible choices for $k$, we also have 
+$n$ possible extensions to $f$, therefore $|Y^{X}| = n \cdot |Y^{Z}|$.
+For $r=1$, we then obtain $|Y^{X}| = n \cdot 1$; for $r=2$, $|Y^{X}| = n \cdot (n \cdot 1)$;
+and so forth.  Thus easily by induction,
+
+\begin{align}
+|Y^{X}| = n^{r}
+\end{align}
+
+\noindent where $|X| = r \ge 0$, and $|Y| = n \ge 1$.
+
+
+
+\section*{Injections}
+To continue the above discussion, we now want to determine how many ways can we select 
+$r$ \emph{distinct} elements from a set of $n$ elements, again taking into account the order
+in which the elements are selected.  That is, we want to determine the number $(n)_{r}$ of
+\emph{permutations without repetition}.  Of course, because we require the $r$ elements to be
+distinct, this question only makes sense when $r \le n$.  It is trivial to see that this 
+question is equivalent to asking how many injections $X \rightarrow Y$ are there when 
+$|X|=r$ and $|Y|=n \ge 1$.
+
+We see that to build an injection $f$, we can start out by choosing one element in $Y$ to
+associate to $1 \in X$.  Then, if we want $f$ to be injective, we have to send $2$ in one
+of the elements of $Y \setminus \{f(1)\}$, so we can only choose from $n-1$ elements.  If
+we carry on:
+\begin{align*}
+&1 \longmapsto f(1) \in Y & \quad \quad \text{$n$ possible choices} \\
+&2 \longmapsto f(2) \in Y \setminus \{f(1)\}& \quad \quad \text{$n-1$ possible choices} \\
+&3 \longmapsto f(3) \in Y \setminus \{f(1),f(2)\}& \quad \quad \text{$n-2$ possible choices} \\
+&\ldots & \ldots \\
+&r \longmapsto f(r) \in Y \setminus \{f(1),\ldots,f(r-1)\}& \quad \quad \text{$n-r+1$ possible choices} 
+\end{align*}
+
+Hence there are $n \cdot (n-1) \cdot (n-2) \ldots (n-r+1)$ possible ways to build an injection
+by using the above procedure.  The same argument can be used to show that any injection $f$ can
+actually be built in such way --- $f(1) \in Y$; $f$ injective $\Rightarrow f(2) \in Y \setminus \{f(1)\}$;
+and so on.  In conclusion,
+
+\begin{align}
+(n)_{r} = |Inj(Y^{X})| = n \cdot (n-1) \cdot (n-2) \ldots (n-r+1) = \frac{n!}{(n-r)!}
+\end{align}
+
+\noindent where $|X| = r \ge 0$, $|Y| = n \ge 1$, and $r \le n$.
+
+In the case that $r = n$, then every injection is a bijection too and thus
+
+\begin{align}
+|Bi(Y^{X})| = n!
+\end{align}
+
+
+
+
+\section*{Factoring through Injections}
+What we've discussed so far can be readily used to solve the problem of determining how many
+ways can we choose $r$ elements out of $n$.  That is, we're asking what is the number $C_{r}^{n}$ 
+of \emph{combinations without repetition}, which is, of course, equivalent to asking how many
+subsets of $r$ elements can be formed from $Y$.
+
+Every injective function $f:X \rightarrow Y$ obviously determines a subset of size $r$ of $Y$,
+namely $f(X) \subset Y$.  Viceversa, every $S \subset Y$ of size $r$ can be seen as the image
+of an injection $f:X \rightarrow Y$ --- if $S = \{s_{1},\ldots,s_{r}\}$, define $f(k) = s_{k}$. 
+Hence the image of the function
+\begin{align*}
+\Phi : Inj(Y^{X}) & \longrightarrow \mathcal{P}(Y) \\
+                f & \longmapsto      f(X) 
+\end{align*}
+
+\noindent is all the subsets of size $r$ of $Y$; however, a subset $S \subset Y$ of size $r$
+may be the image of many injections $X \rightarrow Y$.  How many?  Well, every injection
+$X \rightarrow S$ is also a bijection and we know there are $r!$ of those.  This implies the
+following relation holds: $|Inj(Y^{X})| =  r! \cdot q$, where $q$ is the number of equivalence
+classes in the coimage of $\Phi$
+\footnote{That is, the quotient set of the kernel relation of $\Phi$.}
+and also happens to be the number of elements in the image of $\Phi$.%
+\footnote{Because the coimage of a function is a naturally isomorphic (in the set-theoretic sense
+of a bijection) to the image.}
+Therefore we have
+
+\begin{align}
+C_{r}^{n} = \frac{n \cdot (n-1) \cdot (n-2) \ldots (n-r+1)}{r!} = \frac{n!}{r! \cdot (n-r)!} = 
+{n \choose r}
+\end{align}
+
+\noindent
+A straight consequence of this fact is that $|\mathcal{P}(Y)| = \displaystyle\sum_{r=0}^{n} {n \choose r}$.
+
+\noindent A simple observation is then that the function
+\begin{align*}
+\chi : \mathcal{P}(Y) & \longrightarrow \mathbf{2}^{Y} \\
+                S & \longmapsto      \chi_{S} 
+\end{align*}
+\noindent defined by
+\begin{flalign*}
+\chi_{S}(x) = \begin{cases}
+    1 \quad & x \in S \\
+    0 \quad & x \notin S
+  \end{cases}
+\end{flalign*}
+
+\noindent is a bijection, therefore if we put all this together, we can conclude
+
+\begin{align}
+|\mathcal{P}(Y)| = \displaystyle\sum_{r=0}^{n} {n \choose r} = 2^{n}
+\end{align}
+
+\noindent where $|Y| = n \ge 0$.
+
+\end{document}
