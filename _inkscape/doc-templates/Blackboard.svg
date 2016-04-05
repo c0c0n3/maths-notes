@@ -11,7 +11,6 @@
    width="1024px"
    height="768px"
    viewBox="0 0 1024 768"
-   style="background-color: #3c4747;"
    >
   <sodipodi:namedview
      pagecolor="#3c4747"
@@ -51,6 +50,19 @@
     <inkscape:_name>Blackboard 1024x768</inkscape:_name>
     <inkscape:_shortdesc>Blackboard 1024x768</inkscape:_shortdesc>
   </inkscape:_templateinfo>
+  <g
+     inkscape:groupmode="layer"
+     id="layer0"
+     inkscape:label="Background Fill"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#3c4747"
+       width="1050"
+       height="800"
+       x="-10"
+       y="-22"
+       />
+  </g>
   <g
      id="layer1"
      inkscape:groupmode="layer"
