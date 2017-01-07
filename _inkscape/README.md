@@ -74,7 +74,7 @@ dialog (colours from Pastel palette):
     style from selection.
 
 Note: font families I've used so far in diagrams: Chalkboard, Architects Daughter,
-Sansita One.
+KG Miss Speechy IPA, Sansita One.
 
 
 symbols
